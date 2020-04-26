@@ -6,8 +6,7 @@ elk:
     - "9200:9200"
     - "5044:5044"
   volumes:
-    # mount the dfds project's elk dir as /data on the container
-    # CHANGE THIS to point to where you've downloaded https://github.com/Archethought/dfds/tree/master/elk
+    # mount the sameer project's elk dir as /data on the container
     # format LOCAL:CONTAINER, so change LOCAL, leave :/data
     - ~/sameer/projects/data/elk:/data
 
