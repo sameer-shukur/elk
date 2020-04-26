@@ -9,5 +9,5 @@ elk:
     # mount the dfds project's elk dir as /data on the container
     # CHANGE THIS to point to where you've downloaded https://github.com/Archethought/dfds/tree/master/elk
     # format LOCAL:CONTAINER, so change LOCAL, leave :/data
-    - ~/dev/projects/data/dfds/elk:/data
+    - ~/sameer/projects/data/elk:/data
 
